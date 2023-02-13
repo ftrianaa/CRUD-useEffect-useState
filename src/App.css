@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .App-logo {
@@ -35,4 +36,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.modals{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.modals-frame{
+  background-color: blanchedalmond;
+  padding: 0% 4% 4% 4%;
+  border: maroon solid 1px;
+}
+.button-form{
+  display: flex;
+  justify-content: space-between;
+}
+.form-control{
+  padding-bottom: 15px;
+}
+.header{
+  display: flex;
+  justify-content: space-between ;
+  margin: 5% 0;
+}
+table{
+  height: 100%;
+  width: 100%;
+}
+table{
+  border: black 1px solid;
+  text-align: center;
+}
+tr td{
+  border: black 1px solid;
+}
+h1{
+  text-align: center;
+}
+button{
+  cursor: pointer;
 }
